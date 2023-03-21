@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CatDog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/main.css'>
+</head>
+
+<body>
+  <header>
+    <div>
+      <button class="btn btn-success" onclick="getADog()"> Quero ver um Doguinho </button>
+      <!-- <button onclick="getACat()"> Quero um litle Cat </button> -->
+    </div>
+  </header>
+  <main>
+    <div id="msgLoad" class="message d-none">
+      <img src="./assets/images/load.gif" alt="Loading">
+      <h3 id="message"> Calma Aí que ainda não tem Load direito então fica com esse Gif aí!!! </h3>
+    </div>
+    <div id="dog" class="dog d-none">
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src='./assets/js/main.js'></script>
+</body>
+
+</html>
